@@ -6,12 +6,12 @@ const Home: NextPage = () => {
     return (
     <Layout>
       <Head>
-        <title>My Next.js App</title>
+        <title>Holden Halford</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
       <main>
-        <h1>Welcome to my Next.js app!</h1>
+        <h1>Welcome to my website!</h1>
       </main>
     </Layout>
   )

@@ -1,6 +1,5 @@
 import React, { ReactNode } from 'react';
 import Header from './Header'
-import Navigation from './Navigation'
 import Footer from './Footer'
 
 type LayoutProps = {
@@ -8,9 +7,8 @@ type LayoutProps = {
 }
 
 const Layout: React.FC<LayoutProps> = ({ children }) => (
-  <div>
+  <div className="m-12">
     <Header />
-    <Navigation />
     <main>{children}</main>
     <Footer />
   </div>

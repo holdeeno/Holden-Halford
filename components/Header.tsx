@@ -1,9 +1,11 @@
 import React from 'react';
+import Navigation from './Navigation';
 
 const Header: React.FC = () => {
   return (
     <header>
-      <h1>This is the header</h1>
+      <Navigation />
+      <hr className="mt-0 mb-6 sm:mb-8 md:mb-12 border-b-1 border-solid border-gray-300" />
     </header>
   );
 };
