@@ -11,7 +11,7 @@ const Home: NextPage = () => {
       </Head>
       
       <main>
-        <h1>Welcome to my website!</h1>
+        <h1>Amateur</h1>
       </main>
     </Layout>
   )
