@@ -7,7 +7,7 @@ type LayoutProps = {
 }
 
 const Layout: React.FC<LayoutProps> = ({ children }) => (
-  <div className="m-12 sm:m-4">
+  <div className="m-4 sm:m-12">
     <Header />
     <main>{children}</main>
     <Footer />
