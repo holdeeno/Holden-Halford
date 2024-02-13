@@ -23,10 +23,10 @@ const LifeInWeeks: React.FC = () => {
   return (
     <div>
       <h1 className="text-xl font-bold mb-4">Life in Weeks</h1>
-      <p>Life completed percentage: {lifeCompletionPercentage}%</p>
-      <p>Number of weeks lived: {weeksLived}</p>
-      <p>Number of weeks in 80 years (rough average lifespan): {weeksIn80Years}</p>
-      <p>Number of weeks remaining: {weeksRemaining}</p>
+      <li>Life completed percentage: {lifeCompletionPercentage}%</li>
+      <li>Number of weeks lived: {weeksLived}</li>
+      <li>Number of weeks in 80 years (rough average lifespan): {weeksIn80Years}</li>
+      <li>Number of weeks remaining: {weeksRemaining}</li>
       <div className="flex flex-wrap justify-start items-start mt-4">
         {allWeekDates.map((weekDate, index) => {
           const keyDate = weekDate.toISOString().split('T')[0];
